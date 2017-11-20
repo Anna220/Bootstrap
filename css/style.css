@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4; }
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  border-bottom: #e8491d 3px solid;
+  padding-top: 30px;
+  min-height: 70px; }
+  header .branding {
+    float: left; }
+    header .branding h1 {
+      font-size: 20px; }
+  header nav.navbar {
+    width: 25%;
+    float: right;
+    margin-top: -1.5em;
+    background-color: #35424a;
+    opacity: .7; }
+    header nav.navbar .navbar-nav .nav-link {
+      color: #ffffff;
+      font-size: 18px; }
+      header nav.navbar .navbar-nav .nav-link:active, header nav.navbar .navbar-nav .nav-link:hover {
+        opacity: .7;
+        color: #cccccc;
+        font-weight: 700; }
+      @media screen and (max-width: 768px) {
+        header nav.navbar .navbar-nav .nav-link {
+          font-size: 10px;
+          width: 100%; } }
+    header nav.navbar .nav-item.active {
+      color: #e8491d; }
+  header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: 700; }
+
+#showcase {
+  min-height: 400px;
+  background: url("../img/showcase.jpg") no-repeat 0 -400px;
+  text-align: center;
+  color: #ffffff; }
+  #showcase h2 {
+    margin-top: 3em;
+    font-size: 32px; }
+    @media screen and (max-width: 768px) {
+      #showcase h2 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10em; } }
+  #showcase p {
+    font-size: 20px; }
+    @media screen and (max-width: 768px) {
+      #showcase p {
+        font-size: 16px; } }
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a; }
+  #newsletter h2 {
+    float: left;
+    font-size: 1.5em;
+    font-weight: 700; }
+    @media screen and (max-width: 768px) {
+      #newsletter h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        margin-bottom: .5em; } }
+  #newsletter form {
+    float: right; }
+    #newsletter form .button_1 {
+      height: 38px;
+      background: #e8491d;
+      color: #ffffff;
+      padding: 0 20px; }
+      @media screen and (max-width: 768px) {
+        #newsletter form .button_1 {
+          height: 38px;
+          background: #e8491d;
+          color: #ffffff;
+          padding: 0 20px;
+          border: 0;
+          width: 100%; } }
+  #newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px; }
+    @media screen and (max-width: 768px) {
+      #newsletter input[type="email"] {
+        width: 100%;
+        height: 2.5em;
+        margin-bottom: 5px; } }
+
+#boxes {
+  text-align: center;
+  padding: 30px; }
+  #boxes img {
+    padding: 20px;
+    width: 140px; }
+  #boxes h3 {
+    font-weight: 700; }
+
+footer {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+header{
+  background:$bg-color;
+  color:$primary-color;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:$secondary-color 3px solid;
+    #branding{
+      float:left;
+        h1{
+            font-size:$font-size+4;
+        }
+    }
+     
+    nav.navbar{
+       width:25%;
+       margin-top:-1.5em;
+       float:right;
+       background-color:$bg-color;
+        opacity:.7;
+       .navbar-nav .nav-link{
+            color:$primary-color;
+            font-size:$font-size + 2;
+            &:active,
+            &:hover{
+                opacity:.7;
+                color: #cccccc;
+                font-weight:$fw-bold;
+            }
+           @include mQ(768px){
+               font-size:$font-size - 6;
+           }
+        }
+           .nav-item.active {
+            color:$secondary-color;
+        }
+    }
+    %groupSelector{
+        color:$secondary-color;
+        font-weight:$fw-bold;
+    }
+    .highlight{
+    @extend %groupSelector;
+    }
+    .current a{
+      @extend %groupSelector;  
+    }
+}

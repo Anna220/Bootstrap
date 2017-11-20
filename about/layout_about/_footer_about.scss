@@ -1,0 +1,16 @@
+footer{
+  padding:20px;
+  color:$primary-color;
+  background-color:$secondary-color;
+  text-align: center;
+  @inlcude ClearFix;
+  height:15vh;
+  margin-top:1em;
+    p{
+        padding-top:1em;
+    }
+    @include mQ(768px){
+
+        height:10vh;
+    }
+}
